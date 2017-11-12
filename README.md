@@ -1,12 +1,12 @@
 # Go-SBC
 Go-SBC is a savings bond analysis tool. It ingests a CSV of bond data, POSTs them
-to the [TreasuryDirect website]("https://www.treasurydirect.gov/BC/SBCPrice)
+to the [TreasuryDirect website](https://www.treasurydirect.gov/BC/SBCPrice)
 (a product of Bureau of the Fiscal Service and US Treasury), scrapes the resulting
 page for bond data, and performs some simple calculations on them.
 
 ## Background
 I have a handful of US Savings Bonds lying around, approaching maturity. 
-[TreasuryDirect]("https://www.treasurydirect.gov/BC/SBCPrice) has a tool to
+[TreasuryDirect](https://www.treasurydirect.gov/BC/SBCPrice) has a tool to
 calculate savings bond values, but this tool does not support bulk operations,
 and no API was available. I wanted to create a tool for bulk calculations.
 
